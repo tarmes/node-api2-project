@@ -209,3 +209,19 @@ Create a new React application and connect it to your server:
 Follow these steps for completing your project.
 
 - [ ] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+
+
+// router.get('/:id', (req, res) => {
+//    const id = req.params.id
+//    postsDB.findById(id)
+//    .then(post => {
+//       if (post) {
+//          res.status(200).json(post)
+//       } else {
+//          res.status(404).json({ message: "The post with the specified ID does not exist." })
+//       }
+//    })
+//    .catch(error => {
+//       res.status(500).json({ error: "The post information could not be retrieved." })
+//    })
+// })
